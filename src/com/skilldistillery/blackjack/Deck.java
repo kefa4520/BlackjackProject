@@ -29,8 +29,13 @@ public class Deck {
     Collections.shuffle(cards);
   }
   
-  public Card dealCard() {
-    return cards.remove(0);
+  public void dealCard(Hand hand) {
+    hand.addCard(cards.remove(0));
   }
-  
+
+@Override
+public String toString() {
+	return "Deck [cards=" + cards + "]";
+}
+
 }
