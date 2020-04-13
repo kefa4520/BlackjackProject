@@ -8,26 +8,23 @@ public abstract class Hand {
 	protected List<Card> cardsInHand = new ArrayList<>();
 
 	public Hand() {
-		
+
 	}
-	
-	
+
 	public List<Card> getCardsInHand() {
 		return cardsInHand;
 	}
-
 
 	public void setCardsInHand(List<Card> cardsInHand) {
 		this.cardsInHand = cardsInHand;
 	}
 
-
 	public void addCard(Card card) {
 		cardsInHand.add(card);
 	}
-	
+
 	public void clearHand(Hand hand) {
-		
+
 	}
 
 	@Override
@@ -36,5 +33,5 @@ public abstract class Hand {
 	}
 
 	public abstract int getHandValue();
-	
+
 }

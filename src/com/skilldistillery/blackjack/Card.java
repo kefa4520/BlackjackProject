@@ -9,9 +9,9 @@ public class Card {
     this.suit = suit;
   }
   
-  public int getValue() {
-    return rank.getValue();
-  }
+	public int getValue() {
+		return rank.getValue();
+	}
 
   @Override
   public int hashCode() {
