@@ -15,7 +15,7 @@ public class Dealer {
 		for(int i = 1; i < dealerHand.cardsInHand.size(); i++) {
 			int value = dealerHand.cardsInHand.get(1).getValue();
 			
-			System.out.println("  Dealer's hand: [" + dealerHand.cardsInHand.get(1) + "] value of the card " + value+ "\n");
+			System.out.println("Dealer's hand: [" + dealerHand.cardsInHand.get(1) + "] value of the card " + value+ "\n");
 		}
 	}
 

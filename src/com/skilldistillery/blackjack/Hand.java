@@ -26,7 +26,7 @@ public abstract class Hand {
 		cardsInHand.add(card);
 	}
 	
-	public void clearHand() {
+	public void clearHand(Hand hand) {
 		
 	}
 
